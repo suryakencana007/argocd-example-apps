@@ -5,7 +5,7 @@ metadata:
 spec:	
   ports:
   - name: http-ui
-    port: 80
+    port: 8068
     targetPort: 80	
   selector:	
     app: guestbook-ui
